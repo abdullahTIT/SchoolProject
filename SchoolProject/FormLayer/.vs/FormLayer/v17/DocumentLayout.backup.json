@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\SchoolProject\\FormLayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\main\\ctrl\\settingsctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:main\\ctrl\\settingsctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\main\\ctrl\\settingsctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:main\\ctrl\\settingsctrl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\general\\clstheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:general\\clstheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\employee\\frmaddeditemployeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:employee\\frmaddeditemployeeinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|B:\\SchoolProject\\FormLayer\\main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:main\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|b:\\schoolproject\\formlayer\\formlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1A4D0A04-9883-4133-BC7C-D80C39102849}|FormLayer.csproj|solutionrelative:formlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsCtrl.cs",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\Main\\ctrl\\SettingsCtrl.cs",
+              "RelativeDocumentMoniker": "Main\\ctrl\\SettingsCtrl.cs",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\Main\\ctrl\\SettingsCtrl.cs",
+              "RelativeToolTip": "Main\\ctrl\\SettingsCtrl.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:20:32.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingsCtrl.cs [Design]",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\Main\\ctrl\\SettingsCtrl.cs",
+              "RelativeDocumentMoniker": "Main\\ctrl\\SettingsCtrl.cs",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\Main\\ctrl\\SettingsCtrl.cs [Design]",
+              "RelativeToolTip": "Main\\ctrl\\SettingsCtrl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:20:27.716Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "Main\\frmMain.cs",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\Main\\frmMain.cs",
+              "RelativeToolTip": "Main\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:16:00.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAddEditEmployeeInfo.cs",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\Employee\\frmAddEditEmployeeInfo.cs",
+              "RelativeDocumentMoniker": "Employee\\frmAddEditEmployeeInfo.cs",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\Employee\\frmAddEditEmployeeInfo.cs",
+              "RelativeToolTip": "Employee\\frmAddEditEmployeeInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:15:47.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-21T14:43:49.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\Main\\frmMain.cs",
+              "RelativeDocumentMoniker": "Main\\frmMain.cs",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\Main\\frmMain.cs [Design]",
+              "RelativeToolTip": "Main\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T14:09:36.106Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormLayer.csproj",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\FormLayer.csproj",
+              "RelativeDocumentMoniker": "FormLayer.csproj",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\FormLayer.csproj",
+              "RelativeToolTip": "FormLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-21T14:09:24.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsTheme.cs",
+              "DocumentMoniker": "B:\\SchoolProject\\FormLayer\\General\\clsTheme.cs",
+              "RelativeDocumentMoniker": "General\\clsTheme.cs",
+              "ToolTip": "B:\\SchoolProject\\FormLayer\\General\\clsTheme.cs",
+              "RelativeToolTip": "General\\clsTheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T14:08:49.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

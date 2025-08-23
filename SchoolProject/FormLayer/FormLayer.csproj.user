@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Employee\Ctrls\ctrlEmployeeAddEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Employee\Ctrls\ctrlEmployeecard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Employee\Ctrls\ctrlEmployeeWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Employee\frmAddEditEmployeeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Employee\frmEmployeesLists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Employee\frmFindEmployeeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Employee\frmShowEmployeeInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main\ctrl\MainEmployeeCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Main\ctrl\MainPersonsctrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Main\ctrl\SettingsCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Main\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginScreen\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Persons\Ctrls\ctrlPersoncard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Persons\Ctrls\ctrlPersonCardWithFilter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Persons\frmAddEditPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Persons\frmFindPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Persons\frmPersonsLists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Persons\frmShowPersonInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

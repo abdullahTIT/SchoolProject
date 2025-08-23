@@ -1,0 +1,11 @@
+MyProject/
+│
+├── MyProject.Core/             → Class Library (المنطق العام - Models, Interfaces)
+├── MyProject.DataAccess/      → Class Library (التعامل مع البيانات - Dapper, EF, SQL...)
+├── MyProject.Business/        → Class Library (المنطق التجاري)
+│
+├── MyProject.API/             → ASP.NET Web API
+├── MyProject.ConsoleTest/     → Console App لاختبار المكونات
+├── MyProject.WinForms/        → Windows Forms UI
+عدم تعارض الدوال
+المنطق في database

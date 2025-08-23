@@ -1,0 +1,18 @@
+CREATE TABLE StudentStages (
+    StudentStageID    INT IDENTITY(1,1) PRIMARY KEY,
+    StudentID         INT NOT NULL,
+    StageID           INT NOT NULL,
+    AcademicYearID    INT NOT NULL,
+    EnrollmentDate    DATE NOT NULL,
+    IsActive          BIT NOT NULL,
+
+    CONSTRAINT FK_StudentStages_Student FOREIGN KEY (StudentID)
+        REFERENCES Students(StudentID)
+        ON DELETE CASCADE,
+
+    CONSTRAINT FK_StudentStages_Stage FOREIGN KEY (StageID)
+        REFERENCES Stages(StageID),
+
+    CONSTRAINT FK_StudentStages_Year FOREIGN KEY (AcademicYearID)
+        REFERENCES AcademicYears(AcademicYearID)
+);

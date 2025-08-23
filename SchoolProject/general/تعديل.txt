@@ -1,0 +1,14 @@
+		StudentAttendance
+[Status] IN ('Excused', 'Late', 'Absent', 'Present')
+constraint UQ_StudentAttendance
+Unique(StudentID,ScheduleID,AttendanceDate);
+الشروط الموجودة على persons table
+
+
+		studentfees 
+contartint in 
+	[Status] IN ('Cancelled', 'Overdue', 'Paid', 'Pending')
+
+
+التريجر تعتمد على كلمات ثابته مثل حالة الاستاذ اليومية لذا يجب العمل وفقا لذلك
+النتائج تعتمد على examtypes

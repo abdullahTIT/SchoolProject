@@ -1,0 +1,109 @@
+USE YourDatabaseName;
+GO
+UPDATE StudentFees
+SET Status = 'Late'
+WHERE Status IN ('Pending', 'Partial')
+  AND DueDate < CAST(GETDATE() AS DATE);
+GO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+✅ 1. استخدام Scheduled Task في Windows (بديل SQL Agent)
+يمكنك استخدام Task Scheduler في Windows لتشغيل ملف SQL أو Script PowerShell أسبوعيًا.
+
+الخطوات:
+اكتب الكود في ملف SQL مثلاً: UpdateLateFees.sql
+
+sql
+نسخ الكود
+USE YourDatabaseName;
+GO
+UPDATE StudentFees
+SET Status = 'Late'
+WHERE Status IN ('Pending', 'Partial')
+  AND DueDate < CAST(GETDATE() AS DATE);
+GO
+احفظ الملف على القرص مثلاً: C:\Jobs\UpdateLateFees.sql
+
+افتح Windows Task Scheduler:
+
+Start → Task Scheduler → Create Basic Task
+
+في نوع التكرار: اختر Weekly → وحدد اليوم والوقت.
+
+في الإجراء (Action):
+
+اختر Start a program
+
+في Program/script اكتب:
+
+nginx
+نسخ الكود
+sqlcmd
+في Add arguments:
+
+mathematica
+نسخ الكود
+-S localhost -d YourDatabaseName -i "C:\Jobs\UpdateLateFees.sql" -E
+-E: تعني استخدام Windows Authentication
+استبدل بـ -U username -P password إن كنت تستخدم SQL Authentication
+
+✅ 2. كتابة كود داخل تطبيق C# أو Python يعمل على جدولة
+إذا كنت تستخدم C# أو Python يمكنك كتابة كود يشغّل التحديث في وقت محدد باستخدام مؤقت داخلي:
+
+مثال بسيط بـ C#:
+csharp
+نسخ الكود
+using System;
+using System.Data.SqlClient;
+using System.Timers;
+
+class Program
+{
+    static void Main()
+    {
+        Timer timer = new Timer(TimeSpan.FromDays(7).TotalMilliseconds); // كل أسبوع
+        timer.Elapsed += (s, e) => UpdateLateFees();
+        timer.Start();
+        Console.ReadLine();
+    }
+
+    static void UpdateLateFees()
+    {
+        using (SqlConnection conn = new SqlConnection("your_connection_string"))
+        {
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(@"
+                UPDATE StudentFees
+                SET Status = 'Late'
+                WHERE Status IN ('Pending', 'Partial') AND DueDate < CAST(GETDATE() AS DATE)
+            ", conn);
+            cmd.ExecuteNonQuery();
+        }
+    }
+}
+✅ 3. Trigger (ليس مفضلًا هنا)
+التريجرات لا تنفذ تلقائيًا في وقت معين، لكنها تُستخدم عند حدوث إدراج أو تحديث، لذا غير مناسبة لتحديث أسبوعي مستقل.
+
+✅ ما الحل الأنسب لك؟
+إذا تعمل على Windows فقط؟ استخدم Task Scheduler مع sqlcmd
+
+إذا لديك تطبيق؟ أضف كود C# أو Python بجدولة داخلية
+
+إذا تريد حل دائم من داخل SQL Server؟ استخدم SQL Agent (الذي لا تريده الآن)
+
+هل ترغب أن أرسل لك ملف PowerShell أو C# جاهز يقوم بالمهمة؟
